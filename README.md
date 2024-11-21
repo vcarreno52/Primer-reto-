@@ -26,4 +26,12 @@ Explicación:Este código define dos funciones. La primera, `es_primo`, verifica
 
 Explicaión:Este código define tres funciones. La función `numeros` solicita al usuario que ingrese números separados por comas, los convierte en una lista de enteros y la devuelve. La función `sumas` toma una lista de números y devuelve una nueva lista donde cada elemento es la suma de dos números consecutivos de la lista original. Finalmente, la función `mayor_que` recorre una lista de resultados (sumas) y devuelve el valor máximo encontrado en esa lista. Al final, el código ejecuta las tres funciones: solicita los números, calcula las sumas y muestra el resultado de las sumas y el valor máximo de las sumas.
 
+#5. Escribir una función que reciba una lista de string y retorne unicamente aquellos elementos que tengan los mismos caracteres. e.g. entrada: ["amor", "roma", "perro"], salida ["amor", "roma"]
+
+![Descrpición de la imagen](https://github.com/vcarreno52/Primer-reto-/blob/main/Imagen%20cod%205.png)
+
+Explicación: Este código pide al usuario que ingrese una lista de palabras separadas por comas. La función obtener_palabras() se encarga de procesar la entrada para asegurarse de que no haya palabras vacías o mal formateadas. Luego, la función caracteres() convierte cada palabra en una lista de caracteres ordenados. Con la función anagrama() se comparan todas las palabras para ver si tienen los mismos caracteres, es decir, si son anagramas. Finalmente, filtrar_palabras_anagramas() revisa las palabras y devuelve solo aquellas que cumplen la condición de ser anagramas. Así, el programa muestra al usuario qué palabras tienen los mismos caracteres.
+
+
+
 
